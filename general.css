@@ -1,0 +1,23 @@
+body{
+	background-size: cover;
+	background-position: center;
+	font-family: lato;
+	background-color: black;
+}
+
+div{
+	color: white;
+}
+
+.navbar-default {
+    background-color: black;
+    border-color: black;
+}
+
+html{
+	height: 100%;
+}
+
+#content{
+	padding-top: 5%;
+}
