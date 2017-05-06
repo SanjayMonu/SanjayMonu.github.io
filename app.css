@@ -11,6 +11,11 @@ body{
     border-color: black;
 }
 
+.nav .navbar-nav{
+
+	color: white;
+}
+
 html{
 	height: 100%;
 }
