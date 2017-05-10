@@ -9,6 +9,15 @@ body{
 .navbar-default {
     background-color: #1c1d22;
     border-color: #1c1d22;
+    color: white;
+    opacity: 0.7;
+    alpha: filter (opacity=70);
+    position: fixed;
+}
+
+.navbar-default ul li:hover{
+	background: red;
+	transition: all;
 }
 
 html{
