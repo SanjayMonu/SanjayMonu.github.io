@@ -48,6 +48,33 @@
 <div class="container">
   <div id="content">
 
+    <P>10-MAY-2017</P>
+    <u><h3>EVM Hacking Controversy in India.</h3></u>
+    <h5>A short opinion by <i>Sanjay kumar Monu</i></h5>
+    <p>After a lot of research I think I can make a comment on Electronic Voting Machine (EVM) hacking controversy.</p>
+
+    <p>An EVM is nothing but a counting machine which tabulates how many button presses were done for 16 different buttons. Nothing more. The button presses are done at what the designers call Balloting Unit, and counting of those button presses are done in Counting unit.</p>
+
+    <p>The balloting unit is where you press your button and you can couple 4 of 16 button panels to create 64 candidate counting capacity per machine. It is connected with a cable to another separate box, the counting unit, which houses the electronic circuitry and display for each button. When election happens, the name/symbol of different candidates are pasted against those buttons, and depending upon number of button presses, the total votes for a candidate is counted and displayed by counting units.</p>
+  
+    <p>There is no networking between different EVMs, so the process of computing grand totals between all EVMs is manually done.</p>
+
+    <p>The only logic in this whole scheme sits in the counting unit, and the software is hard coded into an one time writable electronic chip called Internal Mask ROM. We will simply call it ROM here after.
+    There is only one way to hack this. That is to change the ROM in the machine before voting, with another malicious ROM which can do double or triple counting for some buttons, totally ignore counts for some other buttons, or reassign presses to a different button. There is no other way to hack this. There are two other rewritable memory chips that store the vote data (Its called EEPROM). But even to hack EEPROM, you got to replace the core ROM.</p>
+
+    <p>Now the best of the computer in the world can be hacked if the physical possession of the computer is given to hacker. Thats why when we used to advise our clients against hacking, the first thing we would say .. protect physical access to those computers. If physical access is compromised, then every other anti-hacking protection is of no use.</p>
+
+    <p>In EVM case, there is no networking. So there is no central point of hacking. Also these machines are not on internet. So internet based hacking cannot happen. You got to go to each machine in person one by one, and change the ROM.</p>
+
+    <p>So to hack this, the hacker has to buy the exact chip with exact motherboard circuit before hand. He also needs to lay his hands over an original voting machine, figure a way out to read entire memory content of the ROM which will be some garbled junk. And then solve the puzzle of figuring out correct instructions from garbled junk. And then create his malicious instruction set. Then go back to chip manufacturer to rewrite the bad data back into the new hacked chip. (As the chip is non standard, you cannot write it in your home. You need access to manufacturer's machine). This process needs to be duplicated for every hacked chip separately (as many the hacker wants).</p>
+
+    <p>The next task is to go and somehow replace the hacked motherboards into each EVM separately.
+    Every EVM has a maximum capacity of 2000 votes only. If the hacker can do all the steps written above for each EVM, he can influence 2000 votes at a time.</p>
+
+    <p>To influence 2000 votes in my opinion, its much easier to bribe the counting officer, and have 2000 extra added to your name instead of trying to get ROM replaced. Just my opinion.</p>
+    <hr>
+
+
     <p>10-May-2017</p>
     <u><h3>Spray Paint which can turn any surface into touchscreen</h3></u>
     <p>Researchers from the Future Interfaces Group at Carnegie Mellon University in Pittsburgh, Pennsylvania, announced Monday that they have developed a system called Electrick, which effectively coats an object with a touchscreen using spray paint that conducts electricity.</p>
