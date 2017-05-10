@@ -9,6 +9,7 @@ body{
 .navbar-default {
     background-color: #1c1d22;
     border-color: #1c1d22;
+    width: 100%;
 }
 
 html{
