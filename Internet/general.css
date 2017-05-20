@@ -1,0 +1,30 @@
+body{
+	background-size: cover;
+	background-position: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: medium;
+}
+
+div{
+	color: black;
+}
+
+body{
+	color: black;
+}
+
+.navbar-default {
+    background-color: #1c1d22;
+    border-color: #1c1d22;
+}
+
+html{
+	height: 100%;
+}
+
+#content{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 5%
+	padding-left: 5%;
+}
