@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Techchahiye</title>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="general.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://techchahiye.com"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Techchahiye</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li><a href="SanjayMonu.github.io/AboutMe.html"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> About Me</a></li>
+          <li><a href="SanjayMonu.github.io/Science.html"><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span> Science</a></li>
+          <li><a href="SanjayMonu.github.io/Technology.html"><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span> Technology</a></li>
+          <li><a href="SanjayMonu.github.io/Internet.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Internet</a></li>
+          <li><a href="SanjayMonu.github.io/Devices.html"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Devices</a></li>
+      </ul>
+   
+      <ul class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div id="content">
+
+    <P>10-MAY-2017</P>
+    <u><h3>EVM Hacking Controversy in India.</h3></u>
+    <h5>A short opinion by <i>Sanjay kumar Monu</i></h5>
+    <p>After a lot of research I think I can make a comment on Electronic Voting Machine (EVM) hacking controversy.</p>
+
+    <p>An EVM is nothing but a counting machine which tabulates how many button presses were done for 16 different buttons. Nothing more. The button presses are done at what the designers call Balloting Unit, and counting of those button presses are done in Counting unit.</p>
+
+    <p>The balloting unit is where you press your button and you can couple 4 of 16 button panels to create 64 candidate counting capacity per machine. It is connected with a cable to another separate box, the counting unit, which houses the electronic circuitry and display for each button. When election happens, the name/symbol of different candidates are pasted against those buttons, and depending upon number of button presses, the total votes for a candidate is counted and displayed by counting units.</p>
+  
+    <p>There is no networking between different EVMs, so the process of computing grand totals between all EVMs is manually done.</p>
+
+    <p>The only logic in this whole scheme sits in the counting unit, and the software is hard coded into an one time writable electronic chip called Internal Mask ROM. We will simply call it ROM here after.
+    There is only one way to hack this. That is to change the ROM in the machine before voting, with another malicious ROM which can do double or triple counting for some buttons, totally ignore counts for some other buttons, or reassign presses to a different button. There is no other way to hack this. There are two other rewritable memory chips that store the vote data (Its called EEPROM). But even to hack EEPROM, you got to replace the core ROM.</p>
+
+    <p>Now the best of the computer in the world can be hacked if the physical possession of the computer is given to hacker. Thats why when we used to advise our clients against hacking, the first thing we would say .. protect physical access to those computers. If physical access is compromised, then every other anti-hacking protection is of no use.</p>
+
+    <p>In EVM case, there is no networking. So there is no central point of hacking. Also these machines are not on internet. So internet based hacking cannot happen. You got to go to each machine in person one by one, and change the ROM.</p>
+
+    <p>So to hack this, the hacker has to buy the exact chip with exact motherboard circuit before hand. He also needs to lay his hands over an original voting machine, figure a way out to read entire memory content of the ROM which will be some garbled junk. And then solve the puzzle of figuring out correct instructions from garbled junk. And then create his malicious instruction set. Then go back to chip manufacturer to rewrite the bad data back into the new hacked chip. (As the chip is non standard, you cannot write it in your home. You need access to manufacturer's machine). This process needs to be duplicated for every hacked chip separately (as many the hacker wants).</p>
+
+    <p>The next task is to go and somehow replace the hacked motherboards into each EVM separately.
+    Every EVM has a maximum capacity of 2000 votes only. If the hacker can do all the steps written above for each EVM, he can influence 2000 votes at a time.</p>
+
+    <p>To influence 2000 votes in my opinion, its much easier to bribe the counting officer, and have 2000 extra added to your name instead of trying to get ROM replaced. Just my opinion.</p>
+    <hr>
+
+
+    <p>10-May-2017</p>
+    <u><h3>Spray Paint which can turn any surface into touchscreen</h3></u>
+    <p>Researchers from the Future Interfaces Group at Carnegie Mellon University in Pittsburgh, Pennsylvania, announced Monday that they have developed a system called Electrick, which effectively coats an object with a touchscreen using spray paint that conducts electricity.</p>
+    <p>By attaching electrodes to the coated objects, a process called electric field tomography allows an algorithm to measure disruptions to the flow of electricity on the surface when a finger is pressed to it.</p>
+    <p>Electrick is able to detect the location of a finger touch to an accuracy of one centimeter, meaning it can sense virtual buttons, sliders and other controls can be sensed. The researchers used a  prototype of an interactive smartphone case to explore other potential uses, such as opening applications or creating a game controller.</p>
+    <p>“For the first time, we’ve been able to take a can of spray paint and put a touch screen on almost anything,” said Chris Harrison, head of the Future Interfaces Group.</p>
+    <p>They have already demonstrated the technology on irregular-shaped objects, ranging from guitars to steering wheels. The touch sensors mean new functionality—such as adding an effects pedal to the guitar, or a volume control on the steering wheel—can be added to the objects</p>
+    <p>To know more you could refer to: <a href="http://yang-zhang.me/research/Electrick/Electrick.html">Spray Paint Technology</a></p>
+    <hr>
+
+
+    <p>9-May-2017</p>
+    <u><h3>Instagram Web Uploads</h3></u>
+    <p>The Instagram website on mobile devices was previously only available for browsing photos, liking content, searching, and viewing notifications, but now it's possible to upload photos. A new Explore tab is also rolling out on the web.</p>
+    <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="thumbnail">
+            <img src="SanjayMonu.github.io/TechnologyImages/InstagramWebUpload.jpg">
+          </div>
+        </div>
+      </div>
+    <hr>
+
+
+    <p>9-May-2017</p>
+    <u><h3>Google Fuchsia Operating System</h3></u>
+    <p>Google is apparently hard at work on a third operating system after Android and Chrome OS. This one is an open source, real-time OS called "Fuchsia." The OS first popped up in August last year, but back then it was just a command line. Now the mysterious project has a crazy new User-Interface we can look at, so let's dive in.</p>
+    <p>Unlike Android and Chrome Operating System, Fuchsia is not based on Linux. It uses a new Google-developed microkernel called "Magenta." With Fuchsia, Google would not only be dumping the Linux kernel, but also the GPL (i.e. General Public License): the OS is licensed under a mix of BSD (i.e. Berkley Software Distribution), MIT, and Apache 2.0. Dumping Linux might come as a bit of a shock, but the Android ecosystem seems to have no desire to keep up with upstream Linux releases. Even the Google Pixel is still stuck on Linux Kernel 3.18, which was first released at the end of 2014.</p>
+    <hr>
+    
+
+  </div>
+</div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
