@@ -37,3 +37,7 @@ html{
 	padding-right: 5%
 	padding-left: 5%;
 }
+
+.row{
+	box-sizing: border-box;
+}
